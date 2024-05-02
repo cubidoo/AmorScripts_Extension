@@ -1,0 +1,73 @@
+{
+    "name": "Amor Scripts",
+    "description": "Lovely Checkout Tool",
+    "version": "2.3",
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+              "default": "Alt+A",
+              "mac": "MacCtrl+Shift+F"
+            },
+            "description": "Opens Amor Scripts Popup"
+        },
+        "switchproxies": {
+            "suggested_key": {
+                "default": "Alt+Q",
+                "mac": "MacCtrl+Shift+Q"
+              },
+            "description": "Switches to a random Proxy"
+        }
+    },
+    "manifest_version": 2,
+    "background": {
+        "persistent": true,
+        "scripts": [ "background.js" ]
+    },
+    "icons": {
+        "16": "html/images/logo.png",
+        "32": "html/images/logo.png",
+        "48": "html/images/logo.png",
+        "128": "html/images/logo.png"
+    },
+    "browser_action": {
+        "default_icon": "html/images/logo.png",
+        "default_popup": "html/login.html"
+    },
+    "permissions": [
+        "https://*/*",
+        "https://localhost",
+        "tabs", 
+        "webRequest", 
+        "webNavigation", 
+        "storage", 
+        "activeTab",
+        "<all_urls>", 
+        "proxy",
+        "privacy",
+        "webRequestBlocking",
+        "browsingData", 
+        "contextMenus", 
+        "cookies",
+        "alarms"
+    ],
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "run_at": "document_start",
+        "all_frames": true,
+        "js": [
+            "toast/js/iziToast.min.js",
+            "js/autorefresh.js",
+            "js/quicktask.js",
+            "js/snipes/request.js", "js/snipes/human.js", "js/snipes/checkout.js", "js/snipes/login.js", "js/snipes/automode.js",
+            "js/solebox/request.js", "js/solebox/human.js", "js/solebox/checkout.js", "js/solebox/login.js", "js/solebox/automode.js",
+            "js/onygo/request.js", "js/onygo/human.js", "js/onygo/checkout.js", "js/onygo/login.js", "js/onygo/automode.js",
+            "js/zalando/drop.js", "js/zalando/restock.js", "js/zalando/preload.js",
+            "js/skatedeluxe/drop.js", "js/skatedeluxe/restock.js",
+            "js/supreme/fast.js", "js/supreme/safe.js", "js/supreme/checkout.js", "js/supreme/checkoutcc.js", "js/supreme/monitor.js",
+            "js/shopify/fast.js", "js/shopify/safe.js", "js/shopify/checkout.js",
+            "js/asics/fast.js", "js/asics/paypal.js",
+            "js/footlocker/request.js"
+        ],
+        "css": ["toast/css/iziToast.min.css", "html/css/script.css"]
+    }]
+}

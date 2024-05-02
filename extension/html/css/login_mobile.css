@@ -1,0 +1,188 @@
+body { 
+	background-color: #1D021D;
+	width:370px;
+	height:550px;
+	border-radius: 10px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bg_logo {
+	width: 315px;
+	height: 315px;
+	position: absolute;
+	top: 240px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+  	margin-right: auto;
+	background-image: url(/html/images/logo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: blur(8.5px);
+	transform: rotate(16.51deg);
+	opacity: 30%;
+}
+
+.version { 
+	color:rgba(255, 255, 255, 1);
+	width:42px;
+	height:10px;
+	position:absolute;
+	left:15px;
+	top:600px;
+	text-align:left;
+	font-size:8px;
+	letter-spacing:0;
+}
+
+.popup {
+	width:340px;
+	height:380px;
+	position:absolute;
+	left:25px;
+	top:160px;
+}
+.background { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(25px);
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 0.20000000298023224);
+	width:340px;
+	height:380px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+.dashboard { 
+	color:rgba(255, 255, 255, 1);
+	width:62px;
+	height:15px;
+	position:absolute;
+	left:25px;
+	top:262px;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+}
+
+.dashboard:hover {
+	transition: all 0.2s;
+	cursor: pointer;
+	color: #ce79ce;
+}
+.login { 
+	width:290px;
+	height:40px;
+	position:absolute;
+	left:25px;
+	top:310px;
+}
+.loginbtn { 
+	background-color:rgba(206.0000029206276, 121.00000038743019, 206.0000029206276, 0.4000000059604645);
+	width:290px;
+	height:40px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border: none;
+	outline: none;
+	color:rgba(255, 255, 255, 1);
+	font-size:17px;
+}
+.license { 
+	width:287px;
+	height:60px;
+	position:absolute;
+	left:27px;
+	top:82px;
+}
+.licenseinput { 
+	background-color:rgba(31.875, 0, 31.875, 0.6000000238418579);
+	width:287px;
+	height:40px;
+	position:absolute;
+	left:0px;
+	top:20px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	outline: none;
+	border: none;
+	color: white;
+	text-align: center;
+}
+.licensetitle { 
+	color:rgba(255, 255, 255, 1);
+	width:148px;
+	height:15px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+}
+.reset { 
+	width:160px;
+	height:60px;
+	position:absolute;
+	left:90px;
+	top:170px;
+}
+.resetbutton { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 0.10000000149011612);
+	width:160px;
+	height:40px;
+	position:absolute;
+	left:0px;
+	top:20px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border: #ce79ce solid 2px;
+	color:rgba(255, 255, 255, 1);
+	font-size:17px;
+}
+.resettitle {
+	color:rgba(255, 255, 255, 1);
+	width:117px;
+	height:15px;
+	position:absolute;
+	left:22px;
+	top:0px;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+}
+.welcome { 
+	color:rgba(255, 255, 255, 1);
+	width:186px;
+	height:18px;
+	position:absolute;
+	left:77px;
+	top:15px;
+	text-align:left;
+	font-size:15px;
+	letter-spacing:0;
+}
+
+.loginbtn:hover {
+	transition: background-color 0.2s;
+	background-color: #ce79ce;
+	cursor: pointer;
+}
+.resetbutton:hover {
+	transition: all 0.2s;
+	background-color: #ce79ce2a;
+	cursor: pointer;
+}

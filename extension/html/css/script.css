@@ -1,0 +1,112 @@
+/**ZALANDO & SKATEDELUXE*/
+#maindiv {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    width: 600px;
+    border-radius: 8px;
+    background-color: #1D021D;
+    padding: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+#maindivtitle {
+    padding: 10px;
+    z-index: 10;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.amorlogo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10;
+    left: 10;
+    background-image: url(https://cdn.discordapp.com/attachments/879335919835050014/927895711314481192/3damorlogo.gif);
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.size {
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    margin: 3px;
+}
+
+.size:hover {
+    transition: all 0.3s;
+    background-color: #ce79ce;
+    cursor: pointer;
+}
+
+.many {
+    border: 2px solid green;
+}
+
+.two {
+    border: 2px solid yellow;
+}
+
+.one {
+    border: 2px solid orange;
+}
+
+.oos {
+    border: 2px solid red;
+}
+
+.zbutton {
+    background-color: rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 0.20000000298023224);
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+
+.zbutton:hover {
+    transition: all 0.3s;
+    background-color: #ce79ce8a;
+    cursor: pointer;
+}
+
+.timerinput {
+    width: 150px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 5px;
+    color: white;
+    text-align: center;
+}
+
+.timerinput:hover {
+    transition: all 0.3s;
+    border: 1px solid #ce79ce;
+}
+
+/**DEMANDWARE*/
+.sizebtn {
+    width: 80px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(216, 216, 216);
+    color: black;
+}
+
+.sizebtn:hover {
+    transition: all 0.3s;
+    cursor: pointer;
+    background-color: #ce79ce;
+}
